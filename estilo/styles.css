@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row; 
+}
+
+header {
+    width: 250px; 
+    background-color: #004aad;
+    padding: 10px;
+    color: white;
+    height: 100vh; 
+}
+
+#iconoMenu {
+    font-size: 30px;
+    cursor: pointer;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+#InicioSeccion {  
+    display: flex;  
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 20px;  
+}  
+
+#InicioSeccion img {  
+    border-radius: 50%;  
+    width: 50px;  
+    height: 50px;  
+    margin-bottom: 10px;  
+}  
+
+#InicioSeccion h4 {  
+    margin: 0;  
+    font-size: 18px;  
+    color: white;  
+    text-align: center; 
+}  
+
+#InicioSeccion p {  
+    margin: 0;  
+    font-size: 14px; 
+    color: white; 
+    text-align: center; 
+}  
+
+#InicioSeccion p {
+    font-size: 12px;
+    color: white;
+}
+
+
+#OpcionesMenu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#OpcionesMenu ul li {
+    margin-bottom: 15px;
+}
+
+#OpcionesMenu ul li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 12px 20px;  
+    border-radius: 50px;  
+    display: block;  
+    width: 100%; 
+}
+
+#OpcionesMenu ul li a:hover {
+    background-color: #00327e;
+}
+
+
+main {
+    padding: 20px;
+    background-color: #f4f4f4;
+    flex: 1;
+}
+
+.Contenido.Principal h1 {
+    font-size: 24px;
+    color: #004aad;
+    margin-bottom: 20px;
+}
+
+.Contenido.Principal h2 {
+    font-size: 20px;
+    color: #004aad;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #004aad;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+footer {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+   
+}
